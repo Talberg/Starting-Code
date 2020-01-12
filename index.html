@@ -8,58 +8,56 @@
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body class="teal lighten-2">
-    <nav class="red lighten1">
-        <div class="container     nav-wrapper">
-            <a href="#" class="brand-logo center  ">Website Title </a>
+    
+<body style="font-family: 'Open Sans Condensed', sans-serif;"   class="teal lighten-2">
+    <nav class="red title-nav darken-4">
+        <div class=" title-nav  nav-wrapper">
+            <a style="font-size: 3.6rem" href="#" class="brand-logo center dang-g  ">Food Fight </a>
 
         </div>
     </nav>
     <!--  -->
-    <nav class="red lighten-2">
+    <nav class=" cyan darken-4 z-depth-5">
         <div class="nav-wrapper container ">
-            <ul id="nav-mobile" class=" hide-on-med-and-down">
-                <li><a href="collapsible.html"> Contests </a></li>
-                <li><a href="sass.html">Catagories</a></li>
-                <li><a href="badges.html">Winners Circle</a></li>
-                <li><a href="collapsible.html">Contact Us </a></li>
+            <ul id="nav-mobile" class=" ">
+                <li><a  style="font-size: 2.2rem" href="collapsible.html"> Contests </a></li >
+                <li><a  style="font-size: 2.2rem" href="sass.html">Catagories</a></li>
+                <li><a  style="font-size: 2.2rem" href="badges.html">Winners Circle</a></li>
+                <li><a  style="font-size: 2.2rem" href="collapsible.html">Contact Us </a></li>
             </ul>
         </div>
     </nav>
     <!-- this is where the Contest data will go  -->
-    <div class="container section" id="contest-details">
-        <div class=" section row pink lighten-1">
-            <div class=" col s12">
-                <h1 class="center " id=" contest-title">Contest Title</h1>
+    <div class="container section" >
+        <div class=" title-box section row red darken-4">
+            <div class=" col s12" id="contest-details">
+                <h1  class="center " id=" contest-title">~Contest Title~</h1>
             </div>
         </div>
-        <div class="row section ">
-            <div class="col s12 white  ">
-                <h5 class="short-description" id="short-description">This is where the short description of the contest
-                    will go once we have that data</h5>
-            </div>
-        </div>
+        
         <div class="row ">
             <div class="col s8 white ">
+                <h4>Important Info:</h4>
+                <!-- this is the list will all the information about the contest -->
                 <ul>
-                    <li id="deadline">Deadline:</li>
-                    <li id="location">Location</li>
-                    <li id="age-group">Age Group</li>
-                    <li id="rules">Rules</li>
-                    <li id="full-description">Full Description:</li>
-                    <li id="announcement">Announcement</li>
-                    <li id="prize">Prize:</li>
-                    <li id="sign-up">Sign Up:</li>
-                    <li id="sponsors">Sponsors</li>
+                    <li class="info-block" id="deadline">Deadline:</li>
+                    <li class="info-block" id="location">Location</li>
+                    <li class="info-block" id="age-group">Age Group</li>
+                    <li class="info-block" id="rules">Rules</li>
+                    <li class="info-block" id="full-description">Full Description:</li>
+                    <li class="info-block" id="announcement">Announcement</li>
+                    <li class="info-block" id="prize">Prize:</li>
+                    <li class="info-block" id="sign-up">Sign Up:</li>
+                    <li class="info-block" id="sponsors">Sponsors</li>
                 </ul>
             </div>
-            <div class="col s4  "><img class="responsive-img"
+            <div class="col s4  "><img class="" width="103%"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/1200px-Good_Food_Display_-_NCI_Visuals_Online.jpg"
                     id="img-holder">
-                <iframe id="video-holder" class="responsive-video"  src="https://www.youtube.com/embed/2DWNCW6ts6w" frameborder="0"
+                <iframe id="video-holder" width="103%" class=""  src="https://www.youtube.com/embed/2DWNCW6ts6w" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
@@ -70,7 +68,7 @@
 
 
     </div>
-    <script src="script.js"></script>
+    <script src="script.script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,28 @@
+#contest-title{
+    
+    font-size: 7.2rem;
+}
+h1{
+    font-size: 5.5rem;
+    margin: -0.2rem 0 0.68rem 0;
+    color:white
+}
+.info-block{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h4{
+    font-weight: 900;
+}
+.title-box{
+    border-radius: 50px 50px;
+}
+.title-nav{
+    margin: 0 0 5px 0 ;
+    padding-bottom: 75px;
+    border-bottom: red;
+    border-bottom: 5px;
+}
+.dang-g{
+    padding-bottom: 5px;
+}
