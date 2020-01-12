@@ -1,0 +1,1 @@
+// use an for loop to loop through  and pull info and generate the elemnents that show the info 
