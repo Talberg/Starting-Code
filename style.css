@@ -1,9 +1,10 @@
 #contest-title{
     
     font-size: 7.2rem;
+   
 }
 h1{
-    font-size: 5.5rem;
+    font-size: 400;
     margin: -0.2rem 0 0.68rem 0;
     color:white
 }
@@ -16,6 +17,9 @@ h4{
 }
 .title-box{
     border-radius: 50px 50px;
+    border-color: teal ;
+    border-width: 20px;
+    
 }
 .title-nav{
     margin: 0 0 5px 0 ;
@@ -26,3 +30,8 @@ h4{
 .dang-g{
     padding-bottom: 5px;
 }
+.info-container{
+    border-radius: 10px;
+    background-color: #FFE2A7;
+}
+
